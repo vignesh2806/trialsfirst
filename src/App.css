@@ -27,7 +27,68 @@
 .App-link {
   color: #61dafb;
 }
+.forest {
+  width:100%;
+  z-index: -1;
+  height:100px;
+}
 
+.tree {
+  position: absolute;
+  margin-left: 30%;
+  width: 577px;
+  align-self: center !important;
+  border-color: #fff;
+}
+.login-font {
+  color: #20b716;
+  font-family: "Josefin Sans";
+  font-size: 29px;
+  font-weight: 500;
+}
+.email {
+  border: 0ch;
+}
+.button-custom {
+  background-color: #20b716;
+  border-radius: 25px;
+  opacity: 1;
+}
+.text-password {
+  color: #000000;
+  font-size: 14px;
+  float: left;
+  font-weight: 500;
+}
+.text-signup {
+  color: #d9185f;
+  font-size: 14px;
+  float: right;
+  font-weight: 500;
+}
+.form-label:focus {
+  border-color: #c2102e;
+  box-shadow: 0 0 0 0.1rem #8ebdb1;
+}
+.icons {
+  float: left;
+}
+.text-date{
+  font-size: 18px;
+  font-weight: 600;
+  color: #20b716;
+  margin-right: 12px;
+}
+.input-date{
+  margin-top:10px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #20b716;
+  border-color: #20b716;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +96,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+@import "bootstrap/dist/css/bootstrap.css";
+input:focus + label {
+  color: #20b716;
+}
+input::placeholder + label {
+  color: #20b716;
 }
